@@ -1,9 +1,11 @@
 [package]
-name = "awk"
+name = "sigmaos_awk"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-awk component - Inspired by Arch Linux and Debian"
-license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-awk"
+description = "SigmaOS awk text processing language model"
+
+[lib]
+name = "sigmaos_awk"
+path = "src/lib.rs"
 
 [dependencies]
