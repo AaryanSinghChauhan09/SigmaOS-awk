@@ -2,10 +2,9 @@
 name = "sigmaos_awk"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS awk text processing language model"
+license = "MIT"
+description = "SigmaOS awk component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_awk"
 path = "src/lib.rs"
-
-[dependencies]
